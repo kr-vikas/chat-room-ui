@@ -6,7 +6,7 @@
 }
 
 .ChatRoomListBox {
-  max-width: 480px;
+  max-width: 380px;
   min-width: 280px;
   height: 100%;
   background: #fff;
@@ -35,3 +35,32 @@
 #message-area {
   padding: 6px;
 }
+
+.ChatRoomListBox .css-1jjpkau {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.ChatRoomListBox .css-1iz4iln {
+  position: unset;
+  cursor: pointer;
+}
+
+.ChatRoomListBox .css-1kcggdq-MuiInputBase-root .MuiInputBase-input {
+  padding-left: unset !important;
+}
+
+.SearchBoxWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 20px;
+}
+
+.SearchBoxWrapper .css-2s90m6-MuiAvatar-root:hover {
+  cursor: pointer;
+  color: #030303;
+}
+  /* transition: 0.3s; */
